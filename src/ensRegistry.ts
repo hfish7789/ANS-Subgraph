@@ -15,10 +15,10 @@ import {
   Transfer as TransferEvent,
   NewResolver as NewResolverEvent,
   NewTTL as NewTTLEvent
-} from './types/ENSRegistry/EnsRegistry'
+} from './types/ENSRegistry/EnsRegistry';
 
 // Import entity types generated from the GraphQL schema
-import { Account, Domain, Resolver, NewOwner, Transfer, NewResolver, NewTTL } from './types/schema'
+import { Account, Domain, Resolver, NewOwner, Transfer, NewResolver, NewTTL } from './types/schema';
 
 const BIG_INT_ZERO = BigInt.fromI32(0)
 
